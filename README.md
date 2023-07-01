@@ -45,6 +45,25 @@ killall bash
 ```
 and restart i3 with `mod+shift+r`
 
+## For sleep on laptop lid
+```
+vi /etc/systemd/system/suspend@.service 
+[Unit]
+Description=User suspend actions
+Before=sleep.target
+
+[Service]
+User=%I
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=/usr/bin/i3lock -ef -c ffffff
+ExecStartPost=/usr/bin/sleep 1
+
+[Install]
+WantedBy=sleep.target
+```
+ then enable it with sudo systemctl enable suspend@user.service (with your username instead of user).
+
 # Preview
 
 Please preview from google drive: https://drive.google.com/file/d/1LmtA5c16x6XUgmn6wmJjKtBPtrgvlh78/view?usp=sharing
