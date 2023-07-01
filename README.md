@@ -40,4 +40,4 @@ and restart i3 with `mod+shift+r`
 
 # Preview
 
-Please preview from google drive: \<TBA>
+Please preview from google drive: https://drive.google.com/file/d/1LmtA5c16x6XUgmn6wmJjKtBPtrgvlh78/view?usp=sharing
