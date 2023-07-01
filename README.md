@@ -16,6 +16,9 @@ oh-my-zsh
 powerlevel10k zsh
 zsh (obviously)
 thunar
+maim
+xclip
+xdotool
 ```
 
 Install catppuchin firefox theme
