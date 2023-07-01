@@ -19,6 +19,10 @@ thunar
 maim
 xclip
 xdotool
+xss-lock
+fontawesome
+saucecodepro nf
+jetbrains nf
 ```
 
 Install catppuchin firefox theme
