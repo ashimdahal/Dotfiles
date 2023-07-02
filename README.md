@@ -20,6 +20,7 @@ maim
 xclip
 xdotool
 xss-lock
+brightnessctl
 fontawesome
 saucecodepro nf
 jetbrains nf
